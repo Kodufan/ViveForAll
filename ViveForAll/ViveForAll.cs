@@ -49,7 +49,7 @@ public class ViveForAll : NeosMod
 		config = GetConfiguration();
 		config.Save(true);
 
-		Harmony harmony = new Harmony($"{Author}.{Name}");
+		Harmony harmony = new Harmony($"dev.{Author}.{Name}");
 		harmony.PatchAll();
 
 
